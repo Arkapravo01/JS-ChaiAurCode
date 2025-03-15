@@ -17,5 +17,13 @@ console.log(typeof strNum);
 // true => 1; false => 0
 // "" => false
 // "Hitesh" => true
+console.log(-num);
 
-
+console.log(Number("1")+String(2));
+console.log("1"+Boolean(2)+2);
+console.log((1 + Boolean(0) + "2"));
+console.log(+true);
+console.log(+false);
+a=10
+console.log(a++);
+console.log(a);
