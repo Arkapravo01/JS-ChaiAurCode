@@ -35,3 +35,27 @@ const myFunction=function() {
 }
 
 myFunction()
+
+
+//Memories-Stack (Primiive) and Heap (Non-Primitive)
+
+let myYtName='hiteshchoudharydotcom'
+let anotherName = myYtName
+anotherName = 'chaiaurcoode'
+
+console.log(myYtName);
+console.log(anotherName);
+
+let user1 = {
+    email: 'user@google.com',
+    upi:'user@ybl'
+}
+let user2 = user1
+user2.email='arka@gmail.com'
+console.log(user1.email);
+console.log(user2.email);
+
+
+
+
+
