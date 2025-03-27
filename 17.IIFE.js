@@ -7,4 +7,4 @@
 //2nd IIFE won't run if semicolon not used
 ((name)=>{
     console.log(`DB CONNECTED TWO ${name}`);
-})('Arka')
+})('Arka') 
